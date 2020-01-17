@@ -159,5 +159,11 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-robots-txt',
+    {
+      resolve: 'gatsby-plugin-tinacms',
+      options: {
+        plugins: ['gatsby-tinacms-git', 'gatsby-tinacms-remark'],
+      },
+    },
   ],
 }
